@@ -39,24 +39,38 @@ function App() {
       </section>
 
       {/* About */}
-      <section id="about" className="px-10 py-20 text-center">
-        <h2 className="text-4xl font-bold text-cyan-400 mb-6">
-          About Me
-        </h2>
+      
+      <section id="about" className="px-10 py-20">
 
-        <p className="max-w-4xl mx-auto text-gray-300 text-lg leading-8">
-          I am Vaishnavi Parab, a B.Sc. Information Technology graduate
-          passionate about Web Development, Software Development,
-          Python and modern technologies.
-        </p>
+  <h2 className="text-4xl font-bold text-cyan-400 text-center mb-10">
+    About Me
+  </h2>
 
-        <p className="max-w-4xl mx-auto text-gray-400 text-lg mt-4 leading-8">
-          Currently working on DecentraVote, a blockchain-based voting
-          system using React, Django, Ethereum, Solidity and
-          AI-powered fraud detection.
-        </p>
-      </section>
+  <div className="flex flex-col md:flex-row items-center gap-10 max-w-6xl mx-auto">
 
+    <img
+      src="/photo.png"
+      alt="Vaishnavi Parab"
+      className="w-64 rounded-2xl shadow-lg"
+    />
+
+    <div>
+      <p className="text-gray-300 text-lg leading-8">
+        I am Vaishnavi Parab, a B.Sc. Information Technology graduate
+        passionate about Web Development, Software Development,
+        Python and modern technologies.
+      </p>
+
+      <p className="text-gray-400 text-lg mt-4 leading-8">
+        Currently working on DecentraVote, a blockchain-based voting
+        system using React, Django, Ethereum, Solidity and
+        AI-powered fraud detection.
+      </p>
+    </div>
+
+  </div>
+
+</section>
       {/* Skills */}
       <section id="skills" className="px-10 py-20">
 
@@ -197,7 +211,7 @@ function App() {
         </h2>
 
         <a
-          href="/Resume.pdf"
+          href="/Resumev.pdf"
           download
           className="bg-cyan-500 hover:bg-cyan-600 px-6 py-3 rounded-xl text-lg font-semibold text-black"
         >
